@@ -99,7 +99,7 @@ li {
 /*for wrapper*/
 .wrapper {
   max-width: 1360px;
-  width: 86%; 
+  width: 50%; 
   margin: 0 auto;
 }
 /*=================================
@@ -113,7 +113,38 @@ li {
 /*=================================
   main styling starts here
 =================================*/
+.main { 
+  padding: 60px 0;
+  background-color: #5C4033 
+}
 
+.main .wrapper { 
+  padding: 20px;
+  background-color: #F5F5DC;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(65, 30, 2, 0.1);
+ }
+
+ h1 {
+  color: #5C4033;
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.todo-list li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.todo-list li:last-child {
+  border-bottom: none;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #888;
+}
 /*=================================
   main styling ends here
 =================================*/
