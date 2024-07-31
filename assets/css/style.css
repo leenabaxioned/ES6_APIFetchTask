@@ -134,7 +134,7 @@ li {
 
 .todo-list li {
   padding: 10px;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #694b3c;
 }
 
 .todo-list li:last-child {
@@ -143,7 +143,7 @@ li {
 
 .completed {
   text-decoration: line-through;
-  color: #888;
+  color: #644921;
 }
 /*=================================
   main styling ends here
