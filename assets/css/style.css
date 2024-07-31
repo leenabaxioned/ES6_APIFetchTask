@@ -132,18 +132,34 @@ li {
   text-align: center;
 }
 
+.todo-list {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
 .todo-list li {
-  padding: 10px;
+  display: flex;
+  gap: 5px;
+  padding: 10px 0;
   border-bottom: 1px solid #694b3c;
+  font-size: 15px;
 }
 
-.todo-list li:last-child {
-  border-bottom: none;
+.todo-list li::before {
+  font-family: "FontAwesome";
+  content: "\f111";
+  color: #694b3c;
+  font-size: 15px;
 }
 
-.completed {
+.todo-list li:last-child { border-bottom: none; }
+
+.completed { color: #644921; }
+
+.uncompleted { 
   text-decoration: line-through;
-  color: #644921;
+  color: #996f5b;
 }
 /*=================================
   main styling ends here
